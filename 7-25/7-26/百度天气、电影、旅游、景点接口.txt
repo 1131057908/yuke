@@ -1,0 +1,15 @@
+天气接口
+http://api.map.baidu.com/telematics/v3/weather?location=郑州市&output=json&ak=TueGDhCvwI6fOrQnLM0qmXxY9N0OkOiQ&callback=?
+
+电影接口(location=%s)
+http://api.map.baidu.com/telematics/v3/movie?qt=hot_movie&location=郑州市&ak=TueGDhCvwI6fOrQnLM0qmXxY9N0OkOiQ&output=json
+
+旅游接口(location=%s)
+http://api.map.baidu.com/telematics/v3/travel_city?location=北京&ak=TueGDhCvwI6fOrQnLM0qmXxY9N0OkOiQ&output=json
+
+景点接口(输入景点拼音,id=%s)
+http://api.map.baidu.com/telematics/v3/travel_attractions?id=yiheyuan&ak=TueGDhCvwI6fOrQnLM0qmXxY9N0OkOiQ&output=json
+
+
+
+ak=TueGDhCvwI6fOrQnLM0qmXxY9N0OkOiQ

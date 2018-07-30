@@ -1,0 +1,132 @@
+# 打印水仙花数
+# num=100
+# while num<=999:
+#     a=num%10
+#     b=num//10%10
+#     c=num//100
+#
+#     if num==a**3+b**3+c**3:
+#         print(num)
+#     num+=1
+#
+# num=int(input())
+# if num==2:
+#     print('是质数')
+# index=2
+# while  index<num-1:
+#     if num%index==0:
+#         print('不是质数')
+#         index+=1
+# str= input()
+# index=0
+# sum=0
+# while index<len(str):
+#     if str[index]>='0' and str[index]<='9':
+#         sum+=int(str[index])
+#     index+=1
+# print('sum=%d'%(sum))
+#字符串比较大小
+# 按ascii吗从第一个比较 谁的比较大谁的大,如果相等就比较下一个
+# print('zzzzz'>'bzzzz')
+# 长度不同时也按ascii吗比较
+#布尔值与空值
+# 一个布尔值只有 True  False
+b1=True
+b2=False
+print(b1,b2)
+
+
+'''
+空值：是python是一个特殊的值，用none表示，None不能理解为因为0是有意义的，二
+None是一个特殊值
+
+
+'''
+# n=None
+# print(n)
+
+list2=[1,2,3]
+list3=[4,5,6]
+list4=list2+list3
+list2.append(list3)
+print(list2)
+print(list4)
+print(3 in list2)
+print(5 in list2)
+#列表截取
+list10=[1,2,3,4,5,6,7]
+print(list10[2:5])
+#二维列表
+list11=[[1,2,3],[4,5,6,],[7,8,9]]
+print(list11[1][1])
+
+
+#列表方法
+list12=[1,2,3,4,5]
+# list12.append(6)
+list12.append([7,8,9])
+print(list12)
+
+list13=[1,2,3,4,5]
+list13.extend([6,7,8])
+print(list13)
+
+
+list14=[1,2,3,4,5]
+list14.insert(2,[100,200])
+print(list14)
+
+
+list15=[1,2,3,4,5,6]
+list15.pop(2)
+print(list15)
+
+
+list16=[1,2,3,4,5,6,4]
+list16.remove(4)
+print(list16)
+
+list17=[1,2,3,4,5,6]
+list17.clear()
+print(list17)
+
+# ---------查找----
+list18=[1,2,3,4,5,3,7,5]
+index18=list18.index(3)
+index19=list18.index(3,1,8)
+print(index18)
+print(index19)
+
+# len()元素个数
+
+
+list21=[1,2,3,4,5,6]
+print(max(list21))
+
+#指定删除元素
+list23=['d','e','d','e','c','a','d']
+print(list23.count('d'))
+num24=0
+all=list23.count('d')
+while num24<all:
+   list23.remove('d')
+   num24+=1
+print(list23,'------456')
+
+
+list26=[1,5,841,463,4]
+list26.sort()
+print(list26)
+
+#拷贝
+list27=[1,2,3,4,5]
+list28=list27
+list28[1]=200
+print(list27,list28)
+
+
+
+list
+
+
+
